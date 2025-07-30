@@ -453,17 +453,38 @@
           </div>
 
           <div class="col-lg-7">
-            <form action="https://formsubmit.co/suryaarumugam2021@gmail.com" method="POST">
-  <input type="text" name="name" required placeholder="Your Name">
-  <input type="email" name="email" required placeholder="Your Email">
-  <input type="text" name="subject" required placeholder="Subject">
-  <textarea name="message" required placeholder="Your Message"></textarea>
+          <form action="https://formsubmit.co/suryaarumugam2021@gmail.com" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+  <div class="row gy-4">
 
-  <!-- Optional: disable CAPTCHA and redirect -->
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_next" value="https://yourusername.github.io/thank-you.html">
+    <div class="col-md-6">
+      <label for="name-field" class="pb-2">Your Name</label>
+      <input type="text" name="name" id="name-field" class="form-control" required>
+    </div>
 
-  <button type="submit">Send</button>
+    <div class="col-md-6">
+      <label for="email-field" class="pb-2">Your Email</label>
+      <input type="email" name="email" id="email-field" class="form-control" required>
+    </div>
+
+    <div class="col-md-12">
+      <label for="subject-field" class="pb-2">Subject</label>
+      <input type="text" name="subject" id="subject-field" class="form-control" required>
+    </div>
+
+    <div class="col-md-12">
+      <label for="message-field" class="pb-2">Message</label>
+      <textarea name="message" rows="10" id="message-field" class="form-control" required></textarea>
+    </div>
+
+    <!-- hidden options -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://pyprojectpi.github.io/my-portfolio/thankyou.html">
+
+    <div class="col-md-12 text-center">
+      <button type="submit">Send Message</button>
+    </div>
+
+  </div>
 </form>
 
           </div><!-- End Contact Form -->
