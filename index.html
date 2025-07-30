@@ -453,38 +453,42 @@
           </div>
 
           <div class="col-lg-7">
-          <form action="https://formsubmit.co/suryaarumugam2021@gmail.com" method="POST">
-  <div style="display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: auto;">
-    <label>
-      Your Name
-      <input type="text" name="name" required style="width: 100%; padding: 8px;">
-    </label>
-    <label>
-      Your Email
-      <input type="email" name="email" required style="width: 100%; padding: 8px;">
-    </label>
-    <label>
-      Subject
-      <input type="text" name="subject" required style="width: 100%; padding: 8px;">
-    </label>
-    <label>
-      Message
-      <textarea name="message" rows="6" required style="width: 100%; padding: 8px;"></textarea>
-    </label>
+          <form action="https://formsubmit.co/suryaarumugam2021@gmail.com" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+  <div class="row gy-4">
 
-    <!-- Hidden Settings -->
+    <div class="col-md-6">
+      <label for="name-field" class="pb-2">Your Name</label>
+      <input type="text" name="name" id="name-field" class="form-control" required>
+    </div>
+
+    <div class="col-md-6">
+      <label for="email-field" class="pb-2">Your Email</label>
+      <input type="email" name="email" id="email-field" class="form-control" required>
+    </div>
+
+    <div class="col-md-12">
+      <label for="subject-field" class="pb-2">Subject</label>
+      <input type="text" name="subject" id="subject-field" class="form-control" required>
+    </div>
+
+    <div class="col-md-12">
+      <label for="message-field" class="pb-2">Message</label>
+      <textarea name="message" rows="10" id="message-field" class="form-control" required></textarea>
+    </div>
+
+    <!-- Hidden FormSubmit Options -->
     <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="box">
     <input type="hidden" name="_next" value="https://pyprojectpi.github.io/my-portfolio/thankyou.html">
+    <input type="hidden" name="_template" value="box">
 
-    <button type="submit" style="padding: 10px; background: #007BFF; color: white; border: none; cursor: pointer;">
-      Send Message
-    </button>
+    <div class="col-md-12 text-center">
+      <button type="submit">Send Message</button>
+    </div>
+
   </div>
 </form>
 
-
-          </div><!-- End Contact Form -->
+         </div><!-- End Contact Form -->
 
         </div>
 
