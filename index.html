@@ -439,12 +439,12 @@
     
     <div class="d-flex justify-content-center gap-3 flex-wrap">
       <!-- View Resume -->
-      <a href="assets/Profile.pdf" target="_blank" class="btn btn-outline-primary btn-lg px-4 py-2 rounded-pill shadow-sm hover-scale">
+      <a href="files/Profile.pdf" target="_blank" class="btn btn-outline-primary btn-lg px-4 py-2 rounded-pill shadow-sm hover-scale">
         <i class="bi bi-eye"></i> View Resume
       </a>
       
       <!-- Download Resume -->
-      <a href="assets/Profile.pdf" download class="btn btn-success btn-lg px-4 py-2 rounded-pill shadow-sm hover-scale">
+      <a href="files/Profile.pdf" download class="btn btn-success btn-lg px-4 py-2 rounded-pill shadow-sm hover-scale">
         <i class="bi bi-download"></i> Download Resume
       </a>
     </div>
@@ -471,102 +471,89 @@
 
       
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p> </p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>159, Aru Mettu Street,
-                    Solapuri Amman Kovil Street,
-                    Tottaplayam,
-                    Vellore, Tamil Nadu 632001</p>
-                    
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+91 93423 17581</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>suryaarumugam2021@gmail.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3532398473516!2d79.13290807508806!3d12.931720787372845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad3893f8fbbc61%3A0x282de7164caa23cc!2sThottapalayam%2C%20Vellore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1719221388275!5m2!1sen!2sin" 
-              width="100%" 
-              height="270" 
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
+<section id="contact" style="padding:50px 0; background:#f9f9f9;">
+  <div style="max-width:1100px; margin:auto; display:flex; flex-wrap:wrap; gap:30px;">
+    
+    <!-- Left Side (Map + Info with shape) -->
+    <div style="flex:1; min-width:300px; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+      <div style="margin-bottom:20px; font-size:16px; line-height:1.8;">
+        <p><strong>📍 Address:</strong><br>
+            159, Aru Mettu Street,<br>
+            Solapuri Amman Kovil Street,<br>
+            Tottaplayam, Vellore, Tamil Nadu 632001</p>
+        <p><strong>📞 Call Us:</strong><br> +91 93423 17581</p>
+        <p><strong>📧 Email Us:</strong><br> suryaarumugam2021@gmail.com</p>
       </div>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.731528442715!2d79.1338!3d12.9303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad38b0b75161ff%3A0x1ff65fdd7331807b!2s159%2C%20Aru%20Mettu%20St%2C%20Solapuri%20Amman%20Kovil%20St%2C%20Tottapalayam%2C%20Vellore%2C%20Tamil%20Nadu%20632001!5e0!3m2!1sen!2sin!4v1755677656487!5m2!1sen!2sin" 
+        height="250"
+        width="100%" 
+        style="border:0; border-radius:10px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
 
-    </section><!-- /Contact Section -->
+    <!-- Right Side (Form) -->
+    <div style="flex:1; min-width:300px; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+      <h2 style="margin-bottom:20px; text-align:center;">Contact Me</h2>
+
+      <!-- Contact Form -->
+      <!-- Contact Section -->
+<section id="contact" style="padding:50px 0; background:#f9f9f9;">
+  <div style="max-width:600px; margin:auto; background:white; padding:30px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+    <h2 style="text-align:center; margin-bottom:20px; color:#007bff;"></h2>
+    
+    <form id="contact-form" action="https://formspree.io/f/mjkoqodw" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required style="width:100%; padding:10px; margin-bottom:15px; border:1px solid #ddd; border-radius:5px;">
+      
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required style="width:100%; padding:10px; margin-bottom:15px; border:1px solid #ddd; border-radius:5px;">
+      
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="5" required style="width:100%; padding:10px; margin-bottom:15px; border:1px solid #ddd; border-radius:5px;"></textarea>
+      
+      <button type="submit" style="width:100%; padding:12px; background:#007bff; color:white; border:none; border-radius:5px; cursor:pointer; font-size:16px;">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+<script>
+  // Redirect to thankyou.html after successful submission
+  const form = document.getElementById("contact-form");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    }).then(response => {
+      if (response.ok) {
+        window.location.href = "thankyou.html";  // ✅ Redirect after success
+      } else {
+        alert("Oops! Something went wrong. Please try again.");
+      }
+    }).catch(() => {
+      alert("Oops! Something went wrong. Please try again.");
+    });
+  });
+</script>
+
+      
+
+
+    </div>
+
+  </div>
+</section>
+
+
+
 
   </main>
 
